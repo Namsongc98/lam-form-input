@@ -1,0 +1,101 @@
+body {
+  font-family: "Lexend Deca", sans-serif;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.form-container {
+  margin: 0 auto;
+  position: relative;
+  width: 1282px;
+  height: 829px;
+  background: #093545;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.form {
+  position: absolute;
+  width: 347px;
+  height: 406px;
+  left: 468px;
+  top: 157px;
+  text-align: center;
+}
+.form-title,
+.form-text,
+.form-text__Rmb {
+  color: white;
+}
+.form-title {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+}
+.form-text {
+  margin: 39px auto 36px auto;
+  font-size: 16px;
+}
+.input {
+  color: white;
+  width: 300px;
+  height: 45px;
+  margin-bottom: 32px;
+  border-radius: 10px;
+  padding: 12px 18px;
+  border: none;
+  background-color: rgba(34, 73, 87, 1);
+}
+.input-password:hover,
+.input-login:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.input::placeholder {
+  color: white;
+}
+.form-text__Rmb {
+  margin-left: 8px;
+}
+.checkbox {
+   background-color: #224957; 
+  border-radius: 5px;
+  width: 18px;
+  height: 17px;
+  /* appearance: none; */
+  margin: 0px;
+
+}
+.checkbox:checked::before{
+    content: "";
+    position: relative;
+    display: block;
+    width: 18px;
+    height: 17px;
+    border-radius: 5px; 
+    background-image:url(https://upload.wikimedia.org/wikipedia/donate/thumb/8/89/Ooui-checkbox-selected.svg/1200px-Ooui-checkbox-selected.svg.png);
+  
+  
+}
+.form-link {
+  color: #20df7f;
+  margin-left: 32px;
+}
+.form-submit {
+  width: 300px;
+  height: 45px;
+  margin-top: 24px;
+  text-align: center;
+  line-height: 45px;
+  background-color: #20df7f;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.form_img {
+  width: 1282px;
+  height: 111px;
+  position: absolute;
+  top:718px;
+}
